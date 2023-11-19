@@ -58,7 +58,7 @@ A simple Notepad application built with PyQt5 for Python. This application provi
 - **Icon:** Replace 'icon.ico' with your preferred application icon.
 
 ## Screenshot
-![Alt Text]()
+![Screenshot](https://github.com/abdullahCoder-Tech/Notepad/blob/main/Screenshot.png)
 
 
 ## License
