@@ -57,6 +57,10 @@ A simple Notepad application built with PyQt5 for Python. This application provi
 
 - **Icon:** Replace 'icon.ico' with your preferred application icon.
 
+## Screenshot
+![Alt Text]()
+
+
 ## License
 
 This application is licensed under the [GNU General Public License](LICENSE).
