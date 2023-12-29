@@ -15,7 +15,7 @@ A simple Notepad application built with PyQt5 for Python. This application provi
 
 1. **Run the Application:**
    ```bash
-   python main.py
+   python notepad.py
    ```
    Open the application to start using the Notepad.
 
