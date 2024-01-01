@@ -1,84 +1,75 @@
-# Notepad Application 📝🐍
+# Notepad 📝
 
-A simple Notepad application built with PyQt5 for Python. This application provides a user-friendly interface for basic text editing and file management.
+![Notepad Icon](icon.ico)
+
+## Overview
+
+Notepad is a simple and lightweight text editor developed by Abdullah O. Mustapha. It provides a user-friendly interface with essential features for creating and editing text files.
 
 ## Features
 
-- **Create, Open, and Save:** Easily create new text files, open existing ones, and save your work.
-- **Undo and Redo:** Quickly undo or redo your last actions with these intuitive functions.
-- **Cut, Copy, Paste, and Delete:** Standard text manipulation operations to streamline your editing experience.
-- **Find and Replace:** Search for specific words or phrases within the document and replace them with ease.
-- **Change Font Style and Size:** Customize the appearance of your text by adjusting the font style and size.
-- **View Help and Send Feedback (Coming Soon):** Access helpful information and provide feedback directly from the application.
+### 📄 File Operations
 
-## Usage
+- **New File:** Create a new empty document. Shortcut: `Ctrl+N`.
+- **New Window:** Open a new instance of Notepad. Shortcut: `Ctrl+Shift+N`.
+- **Open File:** Browse and open existing text files. Shortcut: `Ctrl+O`.
+- **Save:** Save the current file. Shortcut: `Ctrl+S`.
+- **Save As:** Save the current file with a new name or location. Shortcut: `Ctrl+Shift+S`.
+- **Page Setup:** Configure the page settings for printing.
+- **Print:** Print the content of the document. Shortcut: `Ctrl+P`.
+- **Exit:** Close the Notepad application. Shortcut: `Alt+F4`.
 
-1. **Run the Application:**
-   ```bash
-   python main.py
-   ```
-   Open the application to start using the Notepad.
+### ✂️ Edit Operations
 
-2. **Menu Bar Actions:**
-   - **File Menu:**
-     - **New:** Create a new document.
-     - **New Window:** Open a new instance of the Notepad.
-     - **Open:** Open an existing text file.
-     - **Save:** Save the current document.
-     - **Save As...:** Save the document with a new name.
-     - **Page Setup:** Configure page settings (Coming Soon).
-     - **Print:** Print the document (Coming Soon).
-     - **Exit:** Close the application.
+- **Undo:** Undo the last action. Shortcut: `Ctrl+Z`.
+- **Redo:** Redo the previously undone action. Shortcut: `Ctrl+Y`.
+- **Cut:** Cut the selected text. Shortcut: `Ctrl+X`.
+- **Copy:** Copy the selected text. Shortcut: `Ctrl+C`.
+- **Paste:** Paste the copied or cut text. Shortcut: `Ctrl+V`.
+- **Delete:** Delete the selected text. Shortcut: `Del`.
+- **Go To:** Jump to a specific line number in the document.
+- **Select All:** Select the entire text. Shortcut: `Ctrl+A`.
+- **Time/Date:** Insert the current date and time. Shortcut: `Ctrl+T`.
 
-   - **Edit Menu:**
-     - **Undo:** Reverse the last action.
-     - **Redo:** Repeat the last undone action.
-     - **Cut:** Remove selected text and copy it to the clipboard.
-     - **Copy:** Copy selected text to the clipboard.
-     - **Paste:** Insert text from the clipboard.
-     - **Delete:** Remove selected text (equivalent to Cut).
-     - **Find:** Open the Find dialog.
-     - **Replace:** Open the Replace dialog.
-     - **Go To:** Navigate to a specific line in the document.
-     - **Select All:** Highlight the entire document.
-     - **Time/Date:** Insert the current date and time.
+### 🖌️ Format Options
 
-   - **Format Menu:**
-     - **Font...:** Change the font style and size.
+- **Font:** Customize the font style for the text.
+- **Word Wrap:** Toggle word wrap for easier reading.
 
-   - **View Menu:**
+### 🖼️ View Options
 
-   - **Help Menu:**
-     - **View Help:** Access help information (Coming Soon).
-     - **Send Feedback:** Provide feedback on the application (Coming Soon).
-     - **About Notepad:** Learn more about the application and its author.
+- **Zoom In:** Increase the text size. Shortcut: `Ctrl+1`.
+- **Zoom Out:** Decrease the text size. Shortcut: `Ctrl+0`.
+- **Status Bar:** Show or hide the status bar.
 
-## Customizations
+### ℹ️ Help
 
-- **Icon:** Replace 'icon.ico' with your preferred application icon.
+- **View Help:** Open the documentation on GitHub.
+- **Send Feedback:** Provide feedback or report issues on GitHub.
+- **About Notepad:** Learn more about the application and its version information.
 
-## Screenshot
-![Screenshot](https://github.com/abdullahCoder-Tech/Notepad/blob/main/Screenshot.png)
+## System Requirements
 
+- **Platform:** Cross-platform (Windows, Linux, macOS)
+- **Requirements:** Python, PyQt5
 
-## License
+## How to Use
 
-This application is licensed under the [GNU General Public License](LICENSE).
+1. **Installation:**
+   - Ensure you have Python installed on your system.
+   - Install PyQt5 using `pip install PyQt5`.
 
+2. **Run the Notepad:**
+   - Execute the `notepad.py` script.
 
-## Author
+3. **Explore Features:**
+   - Use the menu options or keyboard shortcuts to perform various actions.
+   - Customize the font and view settings according to your preferences.
 
-- **Abdullah O. Mustapha**
+## About the Author
 
-## Important Notes
-
-- This application is under active development, and more features will be added soon.
-- Contributions are welcome! Feel free to fork and submit pull requests.
-
-## Disclaimer
-
-All rights reserved. Use this application at your own risk.
+Notepad is developed by Abdullah O. Mustapha. Connect with the developer on GitHub: [abdullahCoder-Tech](https://github.com/abdullahCoder-Tech).
 
 ---
 
-**Note:** This application is still in its early stages of development. More features and improvements are planned for future releases. Thank you for using Notepad! 🚀
+**© 2023 Drop Dev. All rights reserved.**
