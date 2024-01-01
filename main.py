@@ -38,6 +38,8 @@ class Notepad(QMainWindow):
         # Create a QTextEdit widget
         self.text_edit = PlainTextEdit(self)
         self.setCentralWidget(self.text_edit)
+        # Set window icon explicitly
+        self.setWindowIcon(QIcon('icon.ico'))
         
         # Increase font size for the menu bar
         menubar = self.menuBar()
