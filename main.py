@@ -288,11 +288,7 @@ class Notepad(QMainWindow):
 
     def save_file_as(self):
         options = QFileDialog.Options()
-<<<<<<< HEAD
-        file_name, _ = QFileDialog.getSaveFileName(self, 'Save File', '', 'Text Files (*.txt);;C++ Files (*.cpp);;C Files(*.c);;Python Files (*.py);;All Files (*)', options=options)
-=======
         file_name, _ = QFileDialog.getSaveFileName(self, 'Save File', '', 'Text Files (*.txt);;C++ Files (*.cpp);;C Files(*.c);;Python Files (*.py);;C Sharp Files (*.cs);;All Files (*)', options=options)
->>>>>>> main
         if file_name:
             self.current_file = file_name
             self.save_file()
